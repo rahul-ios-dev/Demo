@@ -70,6 +70,6 @@ enum RequestMethod: String {
 }
 
 enum CustomURLRequest: String {
-    static let character = "https://rickandmortyapi.com/api/character"
+    case character = "https://rickandmortyapi.com/api/character"
 }
 

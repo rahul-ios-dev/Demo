@@ -12,10 +12,11 @@ final class CharacterListViewViewModel {
     
     var rmCharacter: RMCharacter?
     var modelClosure: ((_ event: Event) -> Void)?
+    var request: CustomURLRequest = .character
     
     public func fetchAllCharacter() {
         
-        AF.request(CustomURLRequest.character,
+        AF.request(request.rawValue,
                    method: .get,
                    parameters: nil,
                    headers: ["Content-Type": "application/json"])
