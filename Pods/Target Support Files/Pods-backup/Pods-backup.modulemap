@@ -1,0 +1,6 @@
+framework module Pods_backup {
+  umbrella header "Pods-backup-umbrella.h"
+
+  export *
+  module * { export * }
+}
