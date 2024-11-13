@@ -34,6 +34,7 @@
 		4DB94FBB2CE44945006C2E97 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94FB82CE44945006C2E97 /* CharacterCollectionViewCell.swift */; };
 		4DB94FBC2CE44945006C2E97 /* CharacterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB94FB92CE44945006C2E97 /* CharacterCollectionViewCell.xib */; };
 		4DB94FBE2CE4494E006C2E97 /* CharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94FBD2CE4494E006C2E97 /* CharacterListViewViewModel.swift */; };
+		4DE61F062CE4673C005507C8 /* ScroolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE61F052CE4673C005507C8 /* ScroolViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		4DB94FB82CE44945006C2E97 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 		4DB94FB92CE44945006C2E97 /* CharacterCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterCollectionViewCell.xib; sourceTree = "<group>"; };
 		4DB94FBD2CE4494E006C2E97 /* CharacterListViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListViewViewModel.swift; sourceTree = "<group>"; };
+		4DE61F052CE4673C005507C8 /* ScroolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScroolViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				4DB94F7C2CE44766006C2E97 /* ViewController.swift */,
+				4DE61F052CE4673C005507C8 /* ScroolViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB94F7D2CE44766006C2E97 /* ViewController.swift in Sources */,
+				4DE61F062CE4673C005507C8 /* ScroolViewController.swift in Sources */,
 				4DB94FA02CE448DC006C2E97 /* StringExtension.swift in Sources */,
 				4DB94FA62CE448ED006C2E97 /* RMCharacterModel.swift in Sources */,
 				4DB94F792CE44766006C2E97 /* AppDelegate.swift in Sources */,

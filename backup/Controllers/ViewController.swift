@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var cvHeight: NSLayoutConstraint!
     @IBOutlet weak var testlbl: UILabel!
     @IBOutlet weak var testIMG: UIImageView!
     @IBOutlet weak var testClv: UICollectionView!
@@ -20,6 +21,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         config()
+    }
+    
+    deinit {
+        cvHeight.removeObserver(self, forKeyPath: "contentSize")
+    }
+    
+    // Override observeValue to handle changes in contentSize
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if keyPath == "contentSize" {
+            var isHeightSet = false
+            if let newValue = change?[.newKey] as? CGSize,
+                newValue.height != 0, !isHeightSet {
+                isHeightSet = true
+                DispatchQueue.main.async {
+                    self.cvHeight.constant = newValue.height
+                }
+            }
+        }
     }
     
     func config() {
@@ -63,6 +82,7 @@ class ViewController: UIViewController {
         testClv.dataSource = self
         testClv.register(UINib(nibName: "CharacterCollectionViewCell", bundle: nil),
                          forCellWithReuseIdentifier: "CharacterCollectionViewCell")
+        testClv.addObserver(self, forKeyPath: "contentSize", options: [.new], context: nil)
     }
 }
 
