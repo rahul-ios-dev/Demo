@@ -29,14 +29,15 @@ class RCManager {
     // Fetch and activate remote config
     func fetchRemoteConfig(completion: @escaping (Bool, Error?) -> Void) {
         remoteConfig.fetch(withExpirationDuration: 60) { [weak self] status, error in
+            guard let self = self else { return }
             if status == .success {
                 print("Remote config values fetched successfully")
-                self?.remoteConfig.activate { changed, error in
+                self.remoteConfig.activate { changed, error in
                     if changed {
                         print("Remote config values were updated.")
                     }
                     // Call the completion handler to notify success
-                    self?.applyRemoteConfigValues()
+                    self.applyRemoteConfigValues()
                     completion(true, nil)
                 }
             } else {
