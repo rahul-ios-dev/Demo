@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E2C5AA4E3E40007D6670DFD /* Pods_backup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D7A4B96534567137C41906 /* Pods_backup.framework */; };
+		4D45F2072CF95C3500189E3B /* DefaultConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D45F2062CF95C3500189E3B /* DefaultConfig.plist */; };
+		4D75682D2CF9914F0004B94D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D75682C2CF9914E0004B94D /* GoogleService-Info.plist */; };
 		4DB94F792CE44766006C2E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94F782CE44766006C2E97 /* AppDelegate.swift */; };
 		4DB94F7B2CE44766006C2E97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94F7A2CE44766006C2E97 /* SceneDelegate.swift */; };
 		4DB94F7D2CE44766006C2E97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94F7C2CE44766006C2E97 /* ViewController.swift */; };
@@ -18,10 +19,6 @@
 		4DB94F982CE44889006C2E97 /* CustomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94F962CE44889006C2E97 /* CustomService.swift */; };
 		4DB94F9F2CE448DC006C2E97 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94F992CE448DC006C2E97 /* Extension.swift */; };
 		4DB94FA02CE448DC006C2E97 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94F9A2CE448DC006C2E97 /* StringExtension.swift */; };
-		4DB94FA12CE448DC006C2E97 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94F9B2CE448DC006C2E97 /* ThemeColor.swift */; };
-		4DB94FA22CE448DC006C2E97 /* ThemeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94F9C2CE448DC006C2E97 /* ThemeImage.swift */; };
-		4DB94FA32CE448DC006C2E97 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94F9D2CE448DC006C2E97 /* CustomFont.swift */; };
-		4DB94FA42CE448DC006C2E97 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94F9E2CE448DC006C2E97 /* UserDefaultsManager.swift */; };
 		4DB94FA62CE448ED006C2E97 /* RMCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94FA52CE448ED006C2E97 /* RMCharacterModel.swift */; };
 		4DB94FB02CE44906006C2E97 /* PlaywriteGBS-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB94FA72CE44906006C2E97 /* PlaywriteGBS-ExtraLight.ttf */; };
 		4DB94FB12CE44906006C2E97 /* PlaywriteGBS-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB94FA82CE44906006C2E97 /* PlaywriteGBS-ExtraLightItalic.ttf */; };
@@ -34,13 +31,13 @@
 		4DB94FBB2CE44945006C2E97 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94FB82CE44945006C2E97 /* CharacterCollectionViewCell.swift */; };
 		4DB94FBC2CE44945006C2E97 /* CharacterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB94FB92CE44945006C2E97 /* CharacterCollectionViewCell.xib */; };
 		4DB94FBE2CE4494E006C2E97 /* CharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB94FBD2CE4494E006C2E97 /* CharacterListViewViewModel.swift */; };
+		69596BCD7CF517628BC01399 /* Pods_backup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20897DCA14DCB3E6503EF87 /* Pods_backup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		21D7A4B96534567137C41906 /* Pods_backup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34B693288DFE2143B0AEB78D /* Pods-backup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backup.debug.xcconfig"; path = "Target Support Files/Pods-backup/Pods-backup.debug.xcconfig"; sourceTree = "<group>"; };
-		44B448ACBDC1A6FECDE44200 /* Pods-backup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backup.release.xcconfig"; path = "Target Support Files/Pods-backup/Pods-backup.release.xcconfig"; sourceTree = "<group>"; };
-		4DB94F752CE44766006C2E97 /* backup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D45F2062CF95C3500189E3B /* DefaultConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DefaultConfig.plist; sourceTree = "<group>"; };
+		4D75682C2CF9914E0004B94D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D7CA0FA2CF98DEE00C61949 /* backup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB94F782CE44766006C2E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DB94F7A2CE44766006C2E97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4DB94F7C2CE44766006C2E97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,10 +49,6 @@
 		4DB94F962CE44889006C2E97 /* CustomService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomService.swift; sourceTree = "<group>"; };
 		4DB94F992CE448DC006C2E97 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		4DB94F9A2CE448DC006C2E97 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		4DB94F9B2CE448DC006C2E97 /* ThemeColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
-		4DB94F9C2CE448DC006C2E97 /* ThemeImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeImage.swift; sourceTree = "<group>"; };
-		4DB94F9D2CE448DC006C2E97 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
-		4DB94F9E2CE448DC006C2E97 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		4DB94FA52CE448ED006C2E97 /* RMCharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMCharacterModel.swift; sourceTree = "<group>"; };
 		4DB94FA72CE44906006C2E97 /* PlaywriteGBS-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaywriteGBS-ExtraLight.ttf"; sourceTree = "<group>"; };
 		4DB94FA82CE44906006C2E97 /* PlaywriteGBS-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaywriteGBS-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -68,14 +61,43 @@
 		4DB94FB82CE44945006C2E97 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 		4DB94FB92CE44945006C2E97 /* CharacterCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterCollectionViewCell.xib; sourceTree = "<group>"; };
 		4DB94FBD2CE4494E006C2E97 /* CharacterListViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListViewViewModel.swift; sourceTree = "<group>"; };
+		5CCE9337165615918A38E1E3 /* Pods-backup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backup.release.xcconfig"; path = "Target Support Files/Pods-backup/Pods-backup.release.xcconfig"; sourceTree = "<group>"; };
+		74C1D73BFD1D21DFBDA4A0A9 /* Pods-backup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backup.debug.xcconfig"; path = "Target Support Files/Pods-backup/Pods-backup.debug.xcconfig"; sourceTree = "<group>"; };
+		E20897DCA14DCB3E6503EF87 /* Pods_backup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4D45F1F42CF9511600189E3B /* Exceptions for "Constants" folder in "backup" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CustomFont.swift,
+				DefaultConfigManager/DefaultConfigManager.swift,
+				RCManager/RCManager.swift,
+				ThemeColor.swift,
+				ThemeImage.swift,
+				UserDefaultsManager.swift,
+			);
+			target = 4DB94F742CE44766006C2E97 /* backup */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4D45F1F32CF9510600189E3B /* Constants */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4D45F1F42CF9511600189E3B /* Exceptions for "Constants" folder in "backup" target */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4DB94F722CE44766006C2E97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E2C5AA4E3E40007D6670DFD /* Pods_backup.framework in Frameworks */,
+				69596BCD7CF517628BC01399 /* Pods_backup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,32 +108,27 @@
 			isa = PBXGroup;
 			children = (
 				4DB94F772CE44766006C2E97 /* backup */,
-				4DB94F762CE44766006C2E97 /* Products */,
-				F9A45DF1D7445E74D05DE80A /* Pods */,
-				C85EC90736314BC5ACFEF587 /* Frameworks */,
+				4D7CA0FA2CF98DEE00C61949 /* backup.app */,
+				624FCE39DB78C0C735790E4A /* Pods */,
+				547CFEF3EC50E8E96DFE6FED /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		4DB94F762CE44766006C2E97 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4DB94F752CE44766006C2E97 /* backup.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4DB94F772CE44766006C2E97 /* backup */ = {
 			isa = PBXGroup;
 			children = (
-				4DB94F942CE447D6006C2E97 /* APIManager */,
+				4DB94F8C2CE44771006C2E97 /* Delegates */,
+				4D45F1F32CF9510600189E3B /* Constants */,
 				4DB94F932CE447D0006C2E97 /* Extension */,
+				4DB94F8E2CE44784006C2E97 /* Resources */,
+				4DB94F942CE447D6006C2E97 /* APIManager */,
 				4DB94F912CE447A5006C2E97 /* ViewModel */,
 				4DB94F922CE447C7006C2E97 /* View */,
 				4DB94F902CE4479E006C2E97 /* Model */,
-				4DB94F8F2CE4478D006C2E97 /* Storyboards */,
-				4DB94F8E2CE44784006C2E97 /* Resources */,
 				4DB94F8D2CE4477C006C2E97 /* Controllers */,
-				4DB94F8C2CE44771006C2E97 /* Delegates */,
+				4DB94F8F2CE4478D006C2E97 /* Storyboards */,
+				4D45F2062CF95C3500189E3B /* DefaultConfig.plist */,
+				4D75682C2CF9914E0004B94D /* GoogleService-Info.plist */,
 				4DB94F862CE44767006C2E97 /* Info.plist */,
 			);
 			path = backup;
@@ -179,12 +196,8 @@
 		4DB94F932CE447D0006C2E97 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4DB94F9D2CE448DC006C2E97 /* CustomFont.swift */,
 				4DB94F992CE448DC006C2E97 /* Extension.swift */,
 				4DB94F9A2CE448DC006C2E97 /* StringExtension.swift */,
-				4DB94F9B2CE448DC006C2E97 /* ThemeColor.swift */,
-				4DB94F9C2CE448DC006C2E97 /* ThemeImage.swift */,
-				4DB94F9E2CE448DC006C2E97 /* UserDefaultsManager.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -222,19 +235,19 @@
 			path = CharacterView;
 			sourceTree = "<group>";
 		};
-		C85EC90736314BC5ACFEF587 /* Frameworks */ = {
+		547CFEF3EC50E8E96DFE6FED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				21D7A4B96534567137C41906 /* Pods_backup.framework */,
+				E20897DCA14DCB3E6503EF87 /* Pods_backup.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F9A45DF1D7445E74D05DE80A /* Pods */ = {
+		624FCE39DB78C0C735790E4A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34B693288DFE2143B0AEB78D /* Pods-backup.debug.xcconfig */,
-				44B448ACBDC1A6FECDE44200 /* Pods-backup.release.xcconfig */,
+				74C1D73BFD1D21DFBDA4A0A9 /* Pods-backup.debug.xcconfig */,
+				5CCE9337165615918A38E1E3 /* Pods-backup.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -246,11 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DB94F892CE44767006C2E97 /* Build configuration list for PBXNativeTarget "backup" */;
 			buildPhases = (
-				9A03D1F79A83F0585EF6312C /* [CP] Check Pods Manifest.lock */,
+				FF0C7BE34D1F66558BC3CC9D /* [CP] Check Pods Manifest.lock */,
 				4DB94F712CE44766006C2E97 /* Sources */,
 				4DB94F722CE44766006C2E97 /* Frameworks */,
 				4DB94F732CE44766006C2E97 /* Resources */,
-				21FB24E3C613722131951B70 /* [CP] Embed Pods Frameworks */,
+				3B05B90FF89A0CFA67F9B942 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,7 +271,7 @@
 			);
 			name = backup;
 			productName = backup;
-			productReference = 4DB94F752CE44766006C2E97 /* backup.app */;
+			productReference = 4D7CA0FA2CF98DEE00C61949 /* backup.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +290,6 @@
 				};
 			};
 			buildConfigurationList = 4DB94F702CE44766006C2E97 /* Build configuration list for PBXProject "backup" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -285,7 +297,8 @@
 				Base,
 			);
 			mainGroup = 4DB94F6C2CE44766006C2E97;
-			productRefGroup = 4DB94F762CE44766006C2E97 /* Products */;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4DB94F6C2CE44766006C2E97;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -309,15 +322,17 @@
 				4DB94FB52CE44906006C2E97 /* PlaywriteGBS-Regular.ttf in Resources */,
 				4DB94FB62CE44906006C2E97 /* PlaywriteGBS-Thin.ttf in Resources */,
 				4DB94FB22CE44906006C2E97 /* PlaywriteGBS-Italic.ttf in Resources */,
+				4D45F2072CF95C3500189E3B /* DefaultConfig.plist in Resources */,
 				4DB94F852CE44767006C2E97 /* Base in Resources */,
 				4DB94F802CE44766006C2E97 /* Base in Resources */,
+				4D75682D2CF9914F0004B94D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		21FB24E3C613722131951B70 /* [CP] Embed Pods Frameworks */ = {
+		3B05B90FF89A0CFA67F9B942 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,7 +349,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-backup/Pods-backup-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9A03D1F79A83F0585EF6312C /* [CP] Check Pods Manifest.lock */ = {
+		FF0C7BE34D1F66558BC3CC9D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,13 +382,9 @@
 				4DB94FA02CE448DC006C2E97 /* StringExtension.swift in Sources */,
 				4DB94FA62CE448ED006C2E97 /* RMCharacterModel.swift in Sources */,
 				4DB94F792CE44766006C2E97 /* AppDelegate.swift in Sources */,
-				4DB94FA22CE448DC006C2E97 /* ThemeImage.swift in Sources */,
-				4DB94FA42CE448DC006C2E97 /* UserDefaultsManager.swift in Sources */,
 				4DB94F7B2CE44766006C2E97 /* SceneDelegate.swift in Sources */,
-				4DB94FA32CE448DC006C2E97 /* CustomFont.swift in Sources */,
 				4DB94FBB2CE44945006C2E97 /* CharacterCollectionViewCell.swift in Sources */,
 				4DB94F9F2CE448DC006C2E97 /* Extension.swift in Sources */,
-				4DB94FA12CE448DC006C2E97 /* ThemeColor.swift in Sources */,
 				4DB94F972CE44889006C2E97 /* CustomImageLoader.swift in Sources */,
 				4DB94FBE2CE4494E006C2E97 /* CharacterListViewViewModel.swift in Sources */,
 				4DB94F982CE44889006C2E97 /* CustomService.swift in Sources */,
@@ -523,12 +534,14 @@
 		};
 		4DB94F8A2CE44767006C2E97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34B693288DFE2143B0AEB78D /* Pods-backup.debug.xcconfig */;
+			baseConfigurationReference = 74C1D73BFD1D21DFBDA4A0A9 /* Pods-backup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = backup/backup.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = backup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -542,6 +555,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.backup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -554,12 +568,14 @@
 		};
 		4DB94F8B2CE44767006C2E97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44B448ACBDC1A6FECDE44200 /* Pods-backup.release.xcconfig */;
+			baseConfigurationReference = 5CCE9337165615918A38E1E3 /* Pods-backup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = backup/backup.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = backup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -573,6 +589,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.backup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

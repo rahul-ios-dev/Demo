@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import FirebaseRemoteConfig
+import Foundation
 
 class ViewController: UIViewController {
 
@@ -42,9 +44,28 @@ class ViewController: UIViewController {
     }
     
     func config() {
+        fetchRemoteConfigConfiguration()
         testClvConfig()
         getConfig()
         fetchAllCharacterConfig()
+    }
+    
+    func fetchRemoteConfigConfiguration() {
+        // Fetch remote config values
+        RCManager.shared.fetchRemoteConfig { success, error in
+            if success {
+                // Once fetched, you can access the model data
+                if let configModel = RCManager.shared.remoteConfigModel {
+                    print("Feature Enabled: \(configModel.isFeatureEnabled)")
+                    print("Background Color: \(configModel.appBackgroundColor)")
+                }
+            } else {
+                // Handle error
+                if let error = error {
+                    print("Failed to fetch remote config: \(error.localizedDescription)")
+                }
+            }
+        }
     }
     
     func getConfig() {
